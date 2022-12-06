@@ -1,0 +1,65 @@
+.App {
+    font-family: sans-serif;
+    text-align: left;
+
+}
+
+.App h1{
+  font-family: 'Times New Roman', Times, serif;
+
+}  
+
+.App h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+  
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+  
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+.dropdown{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.dropdown a{
+  padding-top: 4px; 
+  margin-top: 10px;
+  color:rgb(67, 64, 58) ;
+  font-size: 20px;
+  font-weight: 500;
+  display: grid;
+}
+
+.dropdown .cliker h4{
+  padding: 2px;
+  font-size: 15px;
+  width: 25vw;
+  height: 3vh;
+  color: rgb(210, 22, 22);
+  text-align: center;
+  display: grid;
+}

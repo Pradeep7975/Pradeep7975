@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Drop from "./dropdown";
+// import Input from "./input";
 
-function App() {
+import Header from "./header"
+// import Button from "./button";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header />
+      <h1>Hello World</h1><br />
+      <h2>Here you can find the free couses from youtube and websites</h2><br />
+      <Drop />
+      {/* <Input />  */}
+      <br />
+      {/* <Button /> */}
+
     </div>
+    
   );
 }
-
-export default App;

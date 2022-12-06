@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+
+  .dropdown{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   
+  }
+  
+  .dropdown a{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    color:rgb(67, 64, 58) ;
+    font-size: 20px;
+    font-weight: 500;
+    display: grid;
+  }
